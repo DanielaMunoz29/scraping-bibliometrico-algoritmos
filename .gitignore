@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Data and Logs
+data/raw/
+data/processed/
+data/results/
+data/exports/
+*.log
+src/data/csv/*.csv
+src/data/cookies/*.json
+src/data/screenshots/*.png
+src/preprocessing/unified/*.csv
+src/preprocessing/unified/*.txt
+src/preprocessing/unified/*.pdf
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
